@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity_signup">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:src="@drawable/signup"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/et_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="닉네임 입력"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="이메일 입력"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/et_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="패스워드 입력"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/et_repwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="패스워드 재입력"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/btn_placeRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E36868"
+        android:text="장소 등록하기" />
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/nanumc"
+        android:text=""
+        android:hint="장소 주인일 경우 장소를 추가해주세요\n관리자 댓글을 달 수 있습니다."
+        />
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E36868"
+        android:text="가입 완료" />
+</LinearLayout>

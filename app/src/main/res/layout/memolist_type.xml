@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/TxtMemoListType"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20px"
+    android:background="@drawable/bg_custom_button"
+    android:fontFamily="@font/nanumc"
+    android:orientation="vertical"
+    android:padding="20px"
+    android:textColor="@color/black"
+    android:textSize="12dp"
+    app:drawableLeftCompat="@drawable/profile11"></TextView>

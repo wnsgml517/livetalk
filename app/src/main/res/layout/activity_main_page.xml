@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="584dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/nanume"
+                android:gravity="center|left"
+                android:paddingTop="20sp"
+                android:text="실시간 장소\n라이브톡"
+                android:textSize="53sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/nanumc"
+                android:gravity="center|left"
+                android:text="현 장소상황을\n확인하고, 공유해보세요"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_chat"
+            android:layout_width="0dp"
+            android:layout_height="74dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2393DD"
+            android:fontFamily="@font/nanumc"
+            android:gravity="center"
+            android:text="채팅방\n둘러보기"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_move"
+            android:layout_width="0dp"
+            android:layout_height="68dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2393DD"
+            android:fontFamily="@font/nanumc"
+            android:gravity="center"
+            android:text="장소\n검색 하러가기"
+            android:textSize="15sp"/>
+    </LinearLayout>
+</LinearLayout>

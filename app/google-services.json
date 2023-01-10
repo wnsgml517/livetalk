@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269472238727",
+    "project_id": "livetalk-4331e",
+    "storage_bucket": "livetalk-4331e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269472238727:android:fed1d4e5a064d6ae58bc22",
+        "android_client_info": {
+          "package_name": "com.liveshare.livetalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269472238727-3j11p5nqga39vski568c7p5le9o3qt6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4IPLbpYPd1fcgWcCNFzx333JoAdrdIsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269472238727-3j11p5nqga39vski568c7p5le9o3qt6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
